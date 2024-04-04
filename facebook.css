@@ -1,0 +1,84 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    height: 106px;
+    margin-left: 16%;
+    margin-top: 13%;
+}
+body{
+    background:#f0f2f5;
+}
+.head{
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    width: 500px;
+    margin-left: 18%;
+    margin-top: -1%;
+}
+.form{
+    background: white;
+    height: 400px;
+    width: 374px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    margin-left: 53%;
+    /* margin-bottom: -36px; */
+    margin-top: -16%;
+    border-radius: 12px;
+}
+input[type='text']
+{
+    height: 46px;
+    width: 346px;
+    padding: 27px;
+    font-family: inherit;
+    border-radius: 6px;
+    border: 1px solid grey;
+    font-size: 17px;
+    margin-right: 11px;
+    margin-left: 17px;
+    margin-top: 14px;
+}
+button{
+    height: 55px;
+    width: 346px;
+    padding: 8px;
+    font-family: inherit;
+    border-radius: 6px;
+    border: 1px solid grey;
+    font-size: 17px;
+    margin-right: 11px;
+    margin-left: 17px;
+    background-color: #0866ff;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.border{
+    align-items: center;
+    border-bottom: 1px solid #dadde1;
+    display: flex;
+    margin: 20px 16px;
+    text-align: center;
+}
+.Account{
+    height: 55px;
+    width: 224px;
+    padding: 6px;
+    font-family: inherit;
+    border-radius: 6px;
+    border: 1px solid grey;
+    font-size: 17px;
+    margin-right: 26px;
+    margin-left: 70px;
+    background-color: rgb(33, 148, 33);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
